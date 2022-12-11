@@ -69,3 +69,15 @@
 [2022-12-11 18:40:43] [ INFO ] [OdontologoService:23] Se comenzó el guardado de un odontologo con apellido: R
 [2022-12-11 18:40:43] [ INFO ] [PacienteService:22] Se comenzó el guardado de un paciente con apellido: Rodriguez
 [2022-12-11 18:40:43] [ INFO ] [PacienteService:40] se comenzó la busqueda del turno con id: 1
+[2022-12-11 19:04:23] [ INFO ] [PacienteService:50] Se comenzo el listado de todos los turnos
+[2022-12-11 19:04:29] [ INFO ] [OdontologoService:23] Se comenzó el guardado de un odontologo con apellido: Zampelunghe
+[2022-12-11 19:04:41] [ INFO ] [PacienteService:22] Se comenzó el guardado de un paciente con apellido: JjJj
+[2022-12-11 19:05:44] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-11 19:05:50] [ INFO ] [OdontologoService:23] Se comenzó el guardado de un odontologo con apellido: Zampelunghe
+[2022-12-11 19:05:51] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-11 19:06:02] [ INFO ] [PacienteService:22] Se comenzó el guardado de un paciente con apellido: Zampelunghe
+[2022-12-11 19:06:04] [ INFO ] [PacienteService:39] Se comenzó el listado de todos los pacientes 
+[2022-12-11 19:06:09] [ INFO ] [PacienteService:35] Se comenzó la busqueda de un paciente con id: 1
+[2022-12-11 19:06:09] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 1
+[2022-12-11 19:06:09] [ INFO ] [PacienteService:27] Se comenzó el guardado del turno con id: null
+[2022-12-11 19:06:10] [ INFO ] [PacienteService:50] Se comenzo el listado de todos los turnos

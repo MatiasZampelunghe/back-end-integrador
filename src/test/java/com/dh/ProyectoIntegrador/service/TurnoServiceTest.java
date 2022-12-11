@@ -47,21 +47,21 @@ class TurnoServiceTest {
 
     @Test
     @Order(2)
-    public void searchById() throws ResourceNotFoundException {
+    public void buscarPorId() throws ResourceNotFoundException {
         Long idABuscar=1L;
         Optional<TurnoDTO> pacienteBuscado=turnoService.buscarTurno(idABuscar);
         assertNotNull(pacienteBuscado.get());
     }
     @Test
     @Order(3)
-    public void searchList() throws ResourceNotFoundException {
+    public void ListarTodos() throws ResourceNotFoundException {
         List<TurnoDTO> listTurno= turnoService.buscarTodosTurno();
         Integer listSize=1;
         assertEquals(listSize,listTurno.size());
     }
     @Test
     @Order(4)
-    public void updateTurno() throws BadRequestException, ResourceNotFoundException {
+    public void ActualizarTurno() throws BadRequestException, ResourceNotFoundException {
         Odontologo odontologoAGuardar = new Odontologo("2323","Tom","R");
         Paciente pacienteAGuardar = new Paciente("Tomas","Rodriguez","232323", LocalDate.of(2003,5,5),
                 "tom@gmail.com", new Domicilio("Chubut",123,"Bsas","Bsas"));
@@ -74,7 +74,7 @@ class TurnoServiceTest {
     }
     @Test
     @Order(5)
-    public void deleteTurno() throws ResourceNotFoundException, BadRequestException {
+    public void EliminarTurno() throws ResourceNotFoundException, BadRequestException {
         Long idABuscar=1L;
         turnoService.eliminarTurno(idABuscar);
         Optional<TurnoDTO> turnoEliminado=turnoService.buscarTurno(idABuscar);

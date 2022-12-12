@@ -1,0 +1,7 @@
+cuenta admin
+user:matzampe@gmail.com
+pass:1324
+
+cuenta usuario normal
+user:matizampe11@gmail.com
+pass:1324

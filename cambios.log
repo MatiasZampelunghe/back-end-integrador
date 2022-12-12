@@ -81,3 +81,30 @@
 [2022-12-11 19:06:09] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 1
 [2022-12-11 19:06:09] [ INFO ] [PacienteService:27] Se comenzó el guardado del turno con id: null
 [2022-12-11 19:06:10] [ INFO ] [PacienteService:50] Se comenzo el listado de todos los turnos
+[2022-12-12 11:36:45] [ INFO ] [OdontologoService:23] Se comenzó el guardado de un odontologo con apellido: Sinual
+[2022-12-12 11:36:45] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 1
+[2022-12-12 11:36:45] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:36:45] [ INFO ] [OdontologoService:31] Se comenzó la actualización del odontologo: null
+[2022-12-12 11:36:45] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 2
+[2022-12-12 11:36:45] [ WARN ] [OdontologoService:28] Se eliminó el odontologo con id: 1
+[2022-12-12 11:36:45] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 1
+[2022-12-12 11:37:50] [ INFO ] [OdontologoService:23] Se comenzó el guardado de un odontologo con apellido: Zampelunghe
+[2022-12-12 11:38:00] [ INFO ] [PacienteService:22] Se comenzó el guardado de un paciente con apellido: asdsad
+[2022-12-12 11:38:08] [ INFO ] [PacienteService:35] Se comenzó la busqueda de un paciente con id: 1
+[2022-12-12 11:38:08] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 1
+[2022-12-12 11:38:08] [ INFO ] [PacienteService:27] Se comenzó el guardado del turno con id: null
+[2022-12-12 11:38:09] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:38:12] [ INFO ] [PacienteService:39] Se comenzó el listado de todos los pacientes 
+[2022-12-12 11:38:13] [ INFO ] [PacienteService:50] Se comenzo el listado de todos los turnos
+[2022-12-12 11:38:15] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:38:16] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 1
+[2022-12-12 11:38:17] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:38:19] [ INFO ] [PacienteService:39] Se comenzó el listado de todos los pacientes 
+[2022-12-12 11:38:20] [ INFO ] [PacienteService:35] Se comenzó la busqueda de un paciente con id: 1
+[2022-12-12 11:38:20] [ INFO ] [PacienteService:39] Se comenzó el listado de todos los pacientes 
+[2022-12-12 11:38:21] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:38:22] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:38:23] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:38:23] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos
+[2022-12-12 11:38:25] [ INFO ] [OdontologoService:42] Se comenzó la busqueda del odontologo: 1
+[2022-12-12 11:38:26] [ INFO ] [OdontologoService:36] Se comenzó el listado de odontologos

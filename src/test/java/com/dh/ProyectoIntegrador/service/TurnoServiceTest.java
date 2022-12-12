@@ -62,12 +62,12 @@ class TurnoServiceTest {
     @Test
     @Order(4)
     public void ActualizarTurno() throws BadRequestException, ResourceNotFoundException {
-        Odontologo odontologoAGuardar = new Odontologo("2323","Tom","R");
-        Paciente pacienteAGuardar = new Paciente("Tomas","Rodriguez","232323", LocalDate.of(2003,5,5),
-                "tom@gmail.com", new Domicilio("Chubut",123,"Bsas","Bsas"));
+        Odontologo odontologoAGuardar = new Odontologo("A523","Mati","zamp");
+        Paciente pacienteAGuardar = new Paciente("Agus","Daniel","485363", LocalDate.of(2005,9,10),
+                "mail@gmail.com", new Domicilio("falsa",123,"idk","Buenos Aires"));
         Odontologo odontologoGuardado = odontologoService.guardarOdontologo(odontologoAGuardar);
         Paciente pacienteGuardado = pacienteService.guardarPaciente(pacienteAGuardar);
-        LocalDate fechaAModificar = LocalDate.of(2022,11,2);
+        LocalDate fechaAModificar = LocalDate.of(2022,7,20);
         TurnoDTO turnoAModificar= new TurnoDTO(1L,fechaAModificar,odontologoGuardado.getId(),pacienteGuardado.getId());
         turnoService.actualizarTurno(turnoAModificar);
         assertEquals(fechaAModificar,turnoAModificar.getFecha());

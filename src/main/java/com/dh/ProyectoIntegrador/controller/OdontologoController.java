@@ -67,14 +67,5 @@ public class OdontologoController {
         }
     }
 
-//    @GetMapping
-//    public String buscarOdontologoPorID(Model model, @RequestParam("id") Integer id){
-//        Odontologo odontologoBuscado=odontologoService.buscarOdontologoXId(id);
-//        model.addAttribute("nombre",odontologoBuscado.getNombre());
-//        model.addAttribute("apellido",odontologoBuscado.getApellido());
-//        model.addAttribute("matricula",odontologoBuscado.getMatricula());
-//        //como return, mandas el nombre de la vista
-//        return "busOdontologo";
-//    }
 
 }
